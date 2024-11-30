@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'app/style/variables.scss';
+
+:root {
+  --success: #008000;
+  --warning: #FFD700;
+  --darkWarning: #FFA500;
+  --success2: #D4EDDA;
+  --lightGray: #DDDFE2;
+  --danger: #F08080;
+  --gray: #A9A9A9;
+  --white: #FFFFFF;
+  --black: #000000;
+  --primary: #0095DA;
+  --lightBlue: #60B2FF;
+  --appBackground: #F0F2F5;
+  --red: #FF1919;
+  --darkInputText: #7C7C7C;
+  --iconColor: #8E8E93;
+  --grayInputBackground: #E7E7E7;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

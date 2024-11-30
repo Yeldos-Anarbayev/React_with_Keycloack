@@ -1,0 +1,17 @@
+# curl -X POST https://keycloak.telecom.kz/realms/KT/protocol/openid-connect/token
+#-H "Content-Type: application/x-www-form-urlencoded"
+#-d "client_id=invest-calc"
+#-d "client_secret=sjenfjebrgbbgsenfsbw1f2e1f2e1f21e"
+#-d "grant_type=password"
+#-d "username=SalemAlem"
+#-d "password=poka123baby"
+POST https://keycloak.telecom.kz/realms/KT/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id = invest-calc &
+client_secret = YdYy4lzbf9fMjLSI9bKAgg8J4cUGGUSV &
+grant_type = password &
+username = Saduakhas.D &
+password = QWer12!@
+
+###
